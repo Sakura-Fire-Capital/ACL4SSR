@@ -27,6 +27,8 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 # POE
 DOMAIN-SUFFIX,poe.com
 
+DOMAIN-SUFFIX,you.com
+
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
