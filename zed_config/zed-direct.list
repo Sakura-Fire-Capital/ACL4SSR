@@ -4,3 +4,7 @@ DOMAIN-SUFFIX,edu
 ## VPS
 DOMAIN-SUFFIX,hetzner.cloud
 DOMAIN-SUFFIX,getgrass.io
+
+
+## VISA
+DOMAIN-KEYWORD,ircc-tracker-suivi.apps.cic.gc.ca
