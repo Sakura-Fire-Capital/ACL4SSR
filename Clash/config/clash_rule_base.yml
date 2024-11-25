@@ -5,20 +5,19 @@ external-controller: :9090
 dns:
   enabled: true
   enhanced-mode: redir-host
-#  enhanced-mode: fake-ip
-#  fake-ip-range: 198.18.0.1/16
-#  fake-ip-filter:
-#  - '+.lan'
+  #  enhanced-mode: fake-ip
+  #  fake-ip-range: 198.18.0.1/16
+  #  fake-ip-filter:
+  #  - '+.lan'
   nameserver:
-  - 1.1.1.1
-  - 8.8.8.8
+    - 1.1.1.1
+    - 8.8.8.8
   fallback:
-  - tls://8.8.8.8
-  - tls://1.1.1.1
-  nameserver-policy:
-    "geosite:cn": "223.5.5.5"
-    'geosite:geolocation-!cn': [tls://8.8.8.8, tls://1.1.1.1]
-
+    - tls://8.8.8.8
+    - tls://1.1.1.1
+  # nameserver-policy:
+  #   "geosite:cn": "223.5.5.5"
+  #   'geosite:geolocation-!cn': [tls://8.8.8.8, tls://1.1.1.1]
 #tun:
 #  enable: true
 #  stack: mixed
