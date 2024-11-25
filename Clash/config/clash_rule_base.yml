@@ -16,7 +16,7 @@ dns:
   - tls://8.8.8.8
   - tls://1.1.1.1
   nameserver-policy:
-    "geosite:cn":"223.5.5.5"
+    "geosite:cn": "223.5.5.5"
     'geosite:geolocation-!cn': [tls://8.8.8.8, tls://1.1.1.1]
 
 #tun:
