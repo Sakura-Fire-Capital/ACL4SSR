@@ -1,3 +1,5 @@
 # NAME: crypto_proxy.list
 
 DOMAIN-SUFFIX,marketwebb.info
+DOMAIN-SUFFIX,marketwebb.com
+DOMAIN-SUFFIX,marketwebb.net
